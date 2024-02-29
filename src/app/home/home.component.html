@@ -1,0 +1,28 @@
+<!-- <div style="text-align: center;"> -->
+    @if(false){
+    <p>home works!</p>
+    }@else if(true){
+    <p>home not works!</p>
+    }@else if(true){
+    <p>homexcfvxcvxcv not works!</p>
+    }@else {
+    <p>i m home!!</p>
+    }
+
+    @switch (name) {
+    @case('srv'){
+    <div>hello {{name}}</div>
+    }@case('ram'){
+    <p>hello ram</p>
+    }@default {
+    <p>aksfkas</p>
+    }
+    }
+
+    @for(list of lists;track list.id){
+        <li>{{list.title}}</li>
+    }@empty {
+        <p>no data found</p>
+    }
+
+<!-- </div> -->
